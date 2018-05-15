@@ -2,8 +2,6 @@ package br.com.queue.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.stereotype.Controller;
 
 @SpringBootApplication
@@ -16,10 +14,4 @@ public class Boot
       SpringApplication.run(Boot.class, args);
    }
 
-   @GetMapping("/")
-   @ResponseBody
-   public String home()
-   {
-      return "home";
-   }
 }
