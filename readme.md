@@ -1,13 +1,13 @@
-#Some setup information :).
+# Some setup information :).
 
 Simple example of using queue with RabbitMQ.
 
-##Steps
+## Steps
 
-###Setup RabbitMQ
+### Setup RabbitMQ
 - brew install rabbitmq
 - brew services start rabbitmq
-###Execute
+### Execute
 - just run Boot.java :-) 
 
 
